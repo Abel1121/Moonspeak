@@ -22,13 +22,14 @@
     }
     .about-item__tittle, .about-item__description  {
         font-size: 0.875rem;
-        font-family: "Roboto", "light";
+        font-weight: 300;
         text-transform: uppercase;
         line-height: 1.571;
         margin: 0
       }
       .about-item__tittle{
           color: $violet;
+          letter-spacing: 8px;
       }
       .about-item__description {
           padding-bottom: 50px;

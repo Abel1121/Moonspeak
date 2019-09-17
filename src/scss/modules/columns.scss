@@ -1,0 +1,49 @@
+.columns {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1110px;
+    height: 625px;
+}
+
+.columns-list {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    list-style: none;
+
+    &__item {
+        background-color: $white;
+        height: 430px;
+        width: 350px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    &__tittle {
+        max-width: 194px;
+        font-size: 1rem;
+        font-family: "Roboto";
+        color: $black;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    &__description {
+        font-size: 1rem;
+        color: $black;
+        line-height: 1.2;
+        width: 247px;
+        height: 208px;
+    }
+    &__link {
+        font-size: 1rem;
+        color: $blue;
+        line-height: 1.2;
+        text-align: center;
+        cursor: pointer;
+    }       
+}

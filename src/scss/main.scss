@@ -1,11 +1,14 @@
 @import "_normalize";
 @import "_variables";
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
 @import "modules/header.scss";
 @import "modules/some-text.scss";
 @import "modules/portfolio.scss";
 @import "modules/description.scss";
 @import "modules/about.scss";
+@import "modules/columns.scss";
 
 html {
   box-sizing: border-box;
