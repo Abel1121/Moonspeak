@@ -1,39 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Site title</title>
-    <meta name="description" content="Description" />
 
-    <!-- Title -->
-    <meta property="og:title" content="" />
-    <!-- OPTIONAL description. 2-4 sentences. -->
-    <meta property="og:description" content="" />
-    <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
-    <meta property="og:url" content="" />
-    <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-    <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Site title</title>
+  <meta name="description" content="Description" />
 
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <section class="header">
-      <nav class="header-nav">
-        <ul class="header-nav_menu">
-          <li class="header-nav_item">PORTFOLIO</li>
-          <li class="header-nav_item">ABOUT</li>
-          <li class="header-nav_item header-nav__logo">MOONSPEAK</li>
-          <li class="header-nav_item">ARTICLES</li>
-          <li class="header-nav_item">CONTACT</li>
-        </ul>
-      </nav>
-      <P class="header__descriptions"></P>
-    </section>
-    <section>
-      
-    </section>
-    <script src="js/main.js"></script>
-  </body>
+  <!-- Title -->
+  <meta property="og:title" content="" />
+  <!-- OPTIONAL description. 2-4 sentences. -->
+  <meta property="og:description" content="" />
+  <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
+  <meta property="og:url" content="" />
+  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
+  <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <section class="header">
+    <nav class="header-nav">
+      <ul class="header-nav_menu">
+        <li class="header-nav_item"><a class="column-list__link" href="#">PORTFOLIO</a></li>
+        <li class="header-nav_item"><a class="column-list__link" href="#">ABOUT</a></li>
+        <li class="header-nav_item header-nav__logo"><a class="column-list__link" href="#">MOONSPEAK</a></li>
+        <li class="header-nav_item"><a class="column-list__link" href="#">ARTICLES</a></li>
+        <li class="header-nav_item"><a class="column-list__link" href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <P class="header__descriptions"></P>
+  </section>
+  <section class="some-text">
+    <div class="some-text__containter">
+      <h1 class="some-text__tittle"></h1>
+      <p class="some-text__description"></p>
+      <button class="some-text__button"></button>
+    </div>
+  </section>
+  <section class="portfolio">
+    <ul class="portfolio__list">
+      <li class="portfolio__item"><img class="about__image" src="#" alt="Marek Kobyliński." /></li>
+      <li class="portfolio__item"><img class="about__image" src="#" alt="Marek Kobyliński." /></li>
+      <li class="portfolio__item"><img class="about__image" src="#" alt="Marek Kobyliński." /></li>
+      <li class="portfolio__item"><img class="about__image" src="#" alt="Marek Kobyliński." /></li>
+      <li class="portfolio__item"><img class="about__image" src="#" alt="Marek Kobyliński." /></li>
+      <li class="portfolio__item"><img class="about__image" src="#" alt="Marek Kobyliński." /></li>
+    </ul>
+  </section>
+  <section class="description">
+    <p class="description__tittle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua.</p>
+  </section>
+  <section class="about">
+    <img class="about__image" src="#" alt="Marek Kobyliński." />
+    <ul class="about-list">
+      <li class="about-item">
+        <h2 class="about-item__tittle"></h2>
+        <p class="about-item__description"></p>
+      </li>
+      <li class="about-item">
+        <h2 class="about-item__tittle"></h2>
+        <p class="about-item__description"></p>
+      </li>
+      <li class="about-item">
+        <h2 class="about-item__tittle"></h2>
+        <p class="about-item__description"></p>
+      </li>
+      <li class="about-item">
+        <h2 class="about-item__tittle"></h2>
+        <p class="about-item__description"></p>
+      </li>
+    </ul>
+  </section>
+  <section class="columns">
+    <ul class="columns-list">
+      <li column="column-list__item">
+        <h2 class="column-list__tittle"></h2>
+        <p class="column-list__description"></p>
+        <a class="column-list__link" href="#">Learn more</a>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer">
+    <div class="footer-locaction">
+      <div>
+        <p class="footer-locaction__description">There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or randomised words which don't look even
+          slightly believable.</p>
+        <p class="footer-locaction__phone">Phone number<br>+40 770 123 456</p>
+        <p class="footer-locaction__email">Email<br>almaz@bisenbaev.com</p>
+      </div>
+      <div>
+        <img class="about__image" src="#" alt="Marek Kobyliński." />
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <ul class="social-icon">
+        <li class="social-icon__item"><img class="social-icon__image" src="#" alt="twitter" /></a></li>
+        <li class="social-icon__item"><img class="social-icon__image" src="#" alt="facebook" /></a></li>
+        <li class="social-icon__item"><img class="social-icon__image" src="#" alt="instagram" /></a></li>
+        <li class="social-icon__item"><img class="social-icon__image" src="#" alt="youtube" /></a></li>
+      </ul>
+      <p class="footer-bottom__copyright">Copyright 2019 by Marek Kobyliński</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
