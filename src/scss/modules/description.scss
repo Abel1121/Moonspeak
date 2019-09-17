@@ -1,0 +1,16 @@
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+
+    &__tittle {
+    max-width: 790px;
+    font-size: 2.25rem;
+    font-family: "Roboto";
+    color: $black;
+    line-height: 1.2;
+    text-align: center;
+    }
+  }
+  
