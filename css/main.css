@@ -474,7 +474,7 @@ template {
     list-style: none;
     display: -ms-grid;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(620px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(25rem, 1fr)); }
   .portfolio__item1:after {
     background: url("../assets/img/portfolio-1.png") no-repeat center center; }
