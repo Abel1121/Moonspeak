@@ -2,11 +2,13 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    @media (max-width: $mobile) {
+        grid-template-columns: 1fr;
+    }
     &__image {
         background: url('../assets/img/about-image.png');
         background-size: cover;
-        min-height: 840px;
+        min-height: 30vw;
     }
     &__container {
         display: flex;
@@ -17,7 +19,8 @@
 
     &-list {
         list-style: none;
-        padding-left: 128px;
+        padding: 0;
+        margin: 2rem auto;
         max-width: 503px;
     }
     .about-item__tittle, .about-item__description  {
@@ -32,7 +35,9 @@
           letter-spacing: 8px;
       }
       .about-item__description {
-          padding-bottom: 50px;
-          color: $light-violet;
+        max-width: 360px;
+        margin: 0;
+        padding: 0 0 50px;
+        color: $light-violet;
       }
 }

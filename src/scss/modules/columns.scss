@@ -1,23 +1,27 @@
 .columns {
+    padding: 30px 0 30px 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 0 auto;
     max-width: 1110px;
-    height: 625px;
+    min-height: 625px;
 }
 
 .columns-list {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
     margin: 0;
     padding: 0;
-
+    @media (max-width: 1200px) {
+        grid-template-columns: 1fr;
+    }
     &__item {
         background-color: $white;
-        height: 430px;
-        width: 350px;
+        height: 26.875rem;
+        width: 21.875rem;
         display: flex;
         flex-direction: column; 
         align-items: center;
@@ -32,7 +36,7 @@
         }
 
     &__tittle {
-        max-width: 194px;
+        max-width: 12.125rem;
         font-size: 1rem;
         font-family: "Roboto";
         color: $black;
@@ -44,8 +48,8 @@
         font-size: 1rem;
         color: $black;
         line-height: 1.2;
-        width: 247px;
-        height: 208px;
+        width: 15.437rem;
+        height: 13rem;
     }
     &__link {
         font-size: 1rem;
